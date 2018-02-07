@@ -9,9 +9,6 @@ h1 {
   text-align: center;
 }
 
-p {
-  color: red;
-}
 
 p, li {
   font-size: 16px;  
@@ -19,6 +16,16 @@ p, li {
   letter-spacing: 1px;
 }
 
+p::first-letter {
+  font-size: 32px;  
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+p:hover {
+  color: red;
+  border: 1px solid black;	
+}
 
 html {
   background-color: #00539F;
